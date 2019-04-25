@@ -9,7 +9,7 @@ let snum = number.shift()
 console.log("shifted number is = " +snum)
 console.log("After shifting array is " + number) 
 
-// unhift is used for adding element at the first
+// unshift is used for adding element at the first
 number.unshift('addMe')
 console.log("after unshifting : ")
 console.log(number)
