@@ -22,3 +22,9 @@ let course =
     Student: 'Teja'
 }
 console.log(course)
+
+//to change value 
+
+course.Student = 'Name of student'
+console.log("The changed name is = " + course.Student)
+console.log(course)
