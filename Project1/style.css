@@ -1,0 +1,11 @@
+body{
+    background-color: #34495e;
+}
+
+#container
+{
+    width: 350px;
+    height: auto;
+    margin: 200px auto;
+    text-align: center;
+}

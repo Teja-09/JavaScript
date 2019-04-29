@@ -30,3 +30,13 @@ const createPara = document.createElement('p')
 createPara.textContent = 'I was added by js'
 
 document.querySelector('body').appendChild(createPara)
+
+document.querySelector('button').addEventListener('click', (event) => {
+    event.target.textContent = 'I was Clicked';
+
+})
+
+//track input form
+document.querySelector('#myform').addEventListener('change',()=>{
+    console.log(event.target.value);
+})
