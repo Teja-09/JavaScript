@@ -6,11 +6,16 @@ const student = {
 
 //convert this object into stringg to be stored in local storage
 
-
+//obj to string
 const studentObjToString = JSON.stringify(student)
 
 console.log(typeof(studentObjToString))
+//storing string in local storage
+localStorage.setItem('student', studentObjToString)
 
-//localStorage.setItem('student', studentObjToString)
-
-const toJSON = JSON.parse(studentObjToString)
+// getting value from local storage
+var getval = localStorage.getItem('student')
+// converting  bak to obj from str
+const toJSON = JSON.parse(getval)  
+console.log(toJSON)
+console.log(typeof toJSON)
